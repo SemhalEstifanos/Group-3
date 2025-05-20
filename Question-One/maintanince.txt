@@ -1,0 +1,18 @@
+Question one
+Design a maintenance sceduling system for industrial equipment used in manufacturing .
+This system must optimize the timing of maintenance to minimize downtime and ensure machine operates at peak efficiency .
+Consider the operational demands of the plant ,the availability of maintenance personnel and parts and the historical data of equipment wears and failures.
+
+Thought process
+
+Input
+list of machines with properties of its name, personnel,demand and history Record.
+
+Processs
+create a function that iterates through all the objects inside the array 
+The function checks if the machines's each property such as demand,pesonnel,part and the historical data  they fall under ceratin condition 
+If the machine  fall under those conditions then the machine gets priority maintianace to be serviced
+If not the machine waits 
+
+Output
+String: stating the specific name of the machine based on their priority level.
