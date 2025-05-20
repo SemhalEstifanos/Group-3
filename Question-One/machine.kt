@@ -1,9 +1,3 @@
-Design a maintenance sceduling system for industrial equipment used in manufacturing. 
-This system must optimize the timing of maintenance to minimize downtime and ensure machine 
-operates at peak efficiency .Consider the operational demands of the plant ,the availability
- of maintenance personnel and parts and the historical data of equipment wears and failures.
-
-
 data class Maintain(var name: String, var demand: String, var historicalData: Int, var personnel: Int, var part: String)
 fun maintenancePriority(machines: List<Maintain>) {
     for (item in machines) {
