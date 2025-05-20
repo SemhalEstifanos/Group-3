@@ -1,0 +1,1 @@
+let machine=[{name:MachineA,personnel:4,}]
